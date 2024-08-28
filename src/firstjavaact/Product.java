@@ -25,6 +25,8 @@ public class Product {
         double total = this.price * this.stocks;
         String status = ( this.stocks == 0) ? "Out of Stuck " : "Available";
         
+        
         System.out.printf("%-10d %-10s %-10d %-10d %-10s %-10.2f\n", this.id, this.name, this.price, this.stocks, status, total);
     }
+    
 }
