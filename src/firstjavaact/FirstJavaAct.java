@@ -10,11 +10,11 @@ public class FirstJavaAct {
     public static void main(String[] args) {
       
       Scanner sc = new Scanner(System. in);  
-        /*
+        
        Grade grd1= new Grade();
         grd1.getGrade();
         
-        
+        /*
        Product pr = new Product();
       
        System.out.printf("%-10s %-10s %-10s %-10s %-10s %-10.5s\n",
@@ -58,10 +58,10 @@ public class FirstJavaAct {
         }
         System.out.println("Total Profit: "+ttp);
         System.out.println("Total TEP: "+ttp);
-       /*
+       
       
       
-      */
+      
         
       
         
@@ -177,6 +177,7 @@ public class FirstJavaAct {
             System.out.println("");
         }
         }
+*/
     }
 }
        
