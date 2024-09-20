@@ -25,6 +25,6 @@ public class Grades {
     public void viewGrades(){
         double average = (this.p + this.m + this.pre + this.fi)  / 4;
         String status = ( average  > 3.0 ) ? "Failed " : "Passed";
-        System.out.printf("%-10d %-10s %-10.2f %-10.2f %-102.f %-102.f %-10.2f %10s",this.id, this.name, this.p, this.m, this.pre, this.fi, average, status);
+        System.out.printf("%-10d %-10s %-10.2f %-10.2f %-10.2f %-10.2f %-10.2f %-10s %n ",this.id, this.name, this.p, this.m, this.pre, this.fi, average, status);
     }
 }
